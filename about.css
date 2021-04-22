@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 50px;
+    background-image: url("drums1.jpg");
+    background-repeat: no-repeat;
+    height: 1000px;}
+
+.banner{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-style: italic;}
+
+.main{
+    flex-direction: column ;
+   
+
+    height: 950px;}
+
+
+
+.nav{
+
+    height: 100px;
+    width: 586px;
+    margin-top: 1%;
+    display: inline-flex;
+    border-radius: 6px;}
+
+
+.home{
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 65px;
+    width: 160px;
+    margin-left: 1%;
+    margin-top: 2.5%;
+font-family: monospace;}
+
+.about{
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.205);
+    color:rgb(255, 255, 255);
+    height: 65px;
+    width: 160px;
+    margin-left: 8%;
+    margin-top: 2.5%;
+font-family: monospace;}
+
+
+.contact{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 65px;
+    width: 200px;
+    margin-left: 8%;
+    margin-top: 2.5%;
+text-align: center;
+font-family: monospace; }
+
+.ext{
+    background-color: rgba(253, 9, 9, 0.027);
+    height: 65px;
+    width: 1250px;
+    margin-left: 15%;
+    margin-top: 1%;
+    color: white;}
+
+.cabt{
+    /* background-color: violet; */
+    height: 680px;
+    width: 1644px;
+    margin-left: 1%;
+    margin-top: 1%;
+    display:inline-flex ;}
+    
+.abtdmr{
+    height: 500px;} 
+    img {
+        border: 4px solid rgba(223, 18, 18, 0.514);}
+
+      
+
+   a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;}
+
+ 
+
+.title2{color: rgb(255, 255, 255);
+margin-right: 10%;
+background-color: rgba(20, 220, 170, 0.192);
+height: 59px;
+width: 550px;
+margin-left: 1%;
+text-align: center;
+font-family:serif ;
+font-style: italic;
+border-radius: 20px;}
+
+.listy{color: white;
+position: absolute;
+margin-top: 19%;
+margin-left: 9%;
+font-size: 35px;
+text-align: center;
+background-color: rgba(218, 47, 189, 0.274);
+border-radius: 25px;
+width: 500px;}
+
+.abttxt{color: white;
+    position: absolute;
+    margin-top: 1%;
+    font-size: 35px;
+    margin-left: 1%;
+    text-align: center;
+    background-color: rgba(218, 47, 189, 0.274);
+    border-radius: 25px;
+    width: 500px;}
+
+.level{
+        color: white;
+        background-color: rgba(221, 80, 221, 0.274);
+        border-radius: 15px;
+        font-size: 45px;
+        width: 200px ;
+    
+        margin-left: 125%;
+
+    }

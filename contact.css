@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 50px;
+    background-image: url("drums1.jpg");
+    background-repeat: no-repeat;
+    height: 1000px;}
+
+.banner{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-style: italic;}
+
+.main{
+    flex-direction: column ;
+   
+
+    height: 950px;}
+
+
+
+.nav{
+
+    height: 100px;
+    width: 586px;
+    margin-top: 1%;
+    display: inline-flex;
+    border-radius: 6px;}
+
+
+.home{
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 65px;
+    width: 160px;
+    margin-left: 1%;
+    margin-top: 2.5%;
+font-family: monospace;}
+
+.about{
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.205);
+    color:rgb(255, 255, 255);
+    height: 65px;
+    width: 160px;
+    margin-left: 8%;
+    margin-top: 2.5%;
+font-family: monospace;}
+
+
+.contact{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 65px;
+    width: 200px;
+    margin-left: 8%;
+    margin-top: 2.5%;
+text-align: center;
+font-family: monospace; }
+
+.ext{
+    background-color: rgba(253, 9, 9, 0.027);
+    height: 65px;
+    width: 1250px;
+    margin-left: 15%;
+    margin-top: 1%;
+    color: white;}
+
+.cabt{
+    /* background-color: violet; */
+    height: 680px;
+    width: 1644px;
+    margin-left: 1%;
+    margin-top: 1%;
+    display:inline-flex ;}
+    
+.abtdmr{
+    height: 500px;} 
+    img {
+        border: 4px solid rgba(223, 18, 18, 0.514);}
+
+    .contacts{width: 300px;
+    height: 50px;}
+.forms{height: 500px;}
+      
+
+   a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;}
+
+
+    
+    .input {
+        width: 100%;
+      }
+    .mtext {
+        display: flex;
+        justify-content: center;
+        align-content:flex-end;
+    }
+    
+    .contacttext {
+        display: flex;
+        text-align: left;
+        margin-bottom: 10px;
+        justify-content: left;
+        
+        font-weight: 500;
+        background-color: rgba(180, 134, 66, 0.329);
+        
+    }
+
+.name{background-color: white;
+border-radius: 15px;}
+
+.infor{color:white;
+margin-left: 15%
+;}
+
+.input{height: min-content;}
+
+.mtext{height: 200px;
+font-size: 14pt;}
+
+img{height: 400px;
+width: 500px;
+margin-left: 40%;
+margin-bottom: 10%;}
